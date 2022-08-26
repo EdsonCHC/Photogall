@@ -1,0 +1,215 @@
+/* Import styles */
+@import url('../css/footer.css');
+@import url('../css/burger.css');
+/*--=================================================================--*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #145C4F;
+    color: #fff;
+}
+
+
+/* NAVBAR START */
+.navbar-container {
+    display: flex;
+    height: 90px;
+    min-width: 200px;
+    background-color: #000;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: sticky;
+    top: 0%;
+    z-index: 2;
+}
+
+
+
+.divheader {
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
+a.nameh {
+    margin-left: 15px;
+}
+
+.logo {
+    width: 60px
+}
+
+.navbar-container .ful{
+    display: flex;
+    list-style: none;
+}
+
+.categoría {
+    background-color: #3ca42a;
+}
+
+.nav-link {
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 2px;
+    padding: 7px;
+}
+
+.nav-link a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.nav-link:hover {
+    background-color: #3ca42a;
+    transition: .3s ease-in;
+}
+
+.flags_item{
+    display: inline-block;
+}
+
+.bandera {
+    cursor: pointer;
+    width: 40px;
+    margin:0 5px 0 5px ;
+}
+
+.menu-vertical{
+    overflow: hidden;
+    opacity: 0;
+    background-color: #3ca42a;
+    position: absolute;
+    width: 100px;
+    height: 0;
+    transition: all .5s ease-in;
+    border-radius: 5px;
+    padding: 7px;
+}
+
+#menu-horizontal:hover .menu-vertical{
+    opacity: 1;
+    height: 90px;
+    transition: all .5s ease-in;
+}
+
+.menu-vertical li:hover{
+    text-decoration: underline;
+}
+
+/* NAVBAR END */
+
+/* HEADER   START */
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    background-image: url(../multimedia/fondos/wallhaven-y866vx.jpg);
+    background-size: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.hero-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 500px;
+}
+
+.hero-header>h1 {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.credit {
+    position: absolute;
+    text-decoration: none;
+    font-size: 11px;
+    color: #d9d9dd;
+    right: 10px;
+    top: 570px;
+}
+
+
+.credit:hover {
+    transition: .5s;
+    filter: brightness(100%);
+    color: #ffffff;
+}
+
+/* HEADER END */
+.item {
+    width: 90vw;
+    max-width: 1000px;
+    min-width: 200px;
+    margin: 30px auto 50px;
+    padding: 10px;
+}
+
+.item h3 {
+    text-transform: uppercase;
+    margin: 1rem auto;
+}
+
+.nparagraph {
+    text-align: justify;
+    line-height: 25px;
+    overflow-wrap:normal;
+    font-size: 20px;
+}
+
+.ctext {
+    text-align: center;
+    overflow-wrap: normal;
+    font-size: 20px;
+}
+
+.figure{
+    width: 100%;
+    max-width: 600px;
+    min-width: 200px;
+    margin: 10px auto;
+    height: auto;
+}
+
+.figure > img{
+    width: 100%;
+}
+
+.atrib {
+    text-decoration: none;
+    font-size: 11px;
+    color: #d9d9dd;
+}
+
+.prox{
+    margin: 2rem auto;
+    text-align: center;
+}
+
+#goto{
+    position: relative;
+    color: #fff;
+    text-decoration: none;
+    top: 15px;
+    padding: 5px;
+    background-color: #3ca42a;
+    border-radius: 5px;
+    transition: all .3s ease-in;
+}
+
+#goto:hover{
+    background-color: #1f711d;
+    transition: all .3s ease-in;
+}
