@@ -1,3 +1,3 @@
 # Photogall
-Hola a todos, esto es PhotoGall un pagina web de almacenamiento de imagenes al estilo pexels,
-solamente es un proyecto escolar a base de html, css, php y muy poco javascript :)
+Hello everybody, this is PhotoGall a pexels style image storage website,
+it's just a school project based on html, css, php and very little javascript :)
